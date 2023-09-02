@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+#anchor {
+  scroll-margin-top: 100px;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+h2{
+  margin-left: 2.5%;
+  margin-top: 0.5%;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+a{
+  text-decoration:underline;
+  color:#333;
+}
+p{
+  margin-left: 5%;
+  margin-top: 0;
+  position: relative;
+  font-size: 13px;
+}
+li{
+  margin-left: 3.5%;
+  margin-top: 0.05%;
+  font-size: 13px;
+}
+button{
+  border-color:black;
+  background-style: inset;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  display: inline;
+  font-size: 15px;
+}
+.bt{
+  display: flex;
+  justify-content: center;
+}
+.start{
+  margin-top: 44px;
+  background-image: url(photo.png);
+  z-index: 1;
+  background-size: 100%;
+  padding: 325px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.start h1{
+  font-weight: bold;
+  color: black;
+  font-opacity: 1;
+}
+.menu{
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 44px;
+  left: 0;
+  z-index:3;
+}
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu li{
+  margin: 0;
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #111;
+}
+.contact a{
+  font-weight: bold;
+}
+.cont{
+  display:none;
+}
+.show:hover .cont{
+  display: block;
+}
